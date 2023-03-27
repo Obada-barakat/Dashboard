@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a dashboard from kmaho company">
+    <title>Profile</title>
+    <link rel="shortcut icon" type="image" href="images/logo-1.AVIF">
+    <link rel="stylesheet" href="css/freamwork.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="conatiner d-flex" id="dashboard">
+        <div class="sidebar p-20 m-20 p-relative ba-co rad-15">
+            <a href="home.html">
+                <h3 class="p-relative txt-c mt-0">Home</h3>
+            </a>
+            <ul>
+                <span>
+                    <a href="home.html">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                </span>
+                <li>
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="index.html">
+                        <i class="fa-solid fa-chart-simple fa-fw color-i"></i>
+                        <span class="hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw color-i"></i>
+                        <span class="hide-mobile">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-network-wired fa-fw color-i"></i>
+                        <span class="hide-mobile">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="news.html">
+                        <i class="fa-brands fa-neos fa-fw color-i"></i>
+                        <span class="hide-mobile">News</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="team.html">
+                        <i class="fa-regular fa-user fa-fw color-i"></i>
+                        <span class="hide-mobile">Team</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw color-i"></i>
+                        <span class="hide-mobile">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 rad-6 p-10 " href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw color-i"></i>
+                        <span class="hide-mobile">plans</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="to-up">
+               <a href="#dashboard"><i class="fa-solid fa-angles-up"></i></a>
+            </div>
+        </div>
+        <div class="content w-full m-20 rad-15 ba-co">
+<!-- start head -->
+            <div class="head p-20 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+                        <a href="news.html"><i class="fa-regular fa-bell fa-lg color-i"></i></a>
+                    </span>
+                    <a href="profile.html"><img src="./images/avatar.AVIF" alt="profile picture"></a>
+                </div>
+            </div>
+<!-- end head -->
+            <h1>Profile</h1>
+            <div class="profile-page m-20">
+                <div class="premium rad-10 between-flex w-full ba-co p-20 mb-40">
+                    <div class="about-premium w-full">
+                        <h2 class="h-color fs-30 mb-40">Special premium account !</h2>
+                        <p class="span-p-color mt-0 mb-40">With a special premium account, you can do very intersting yhings!<br />
+                        By pruchasing this account, special feature will be activated for you that <br />you will be amazed to see!</p>
+                            <div class="around-flex mb-20">
+                                <div class="account purchase">
+                                    <a href="#">Account purchase</a>
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div class="account feature">
+                                    <a href="#">View feature</a>
+                                    <i class="fa-solid fa-bolt"></i>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="img d-flex center-flex p-relative">
+                        <img src="/images/human.AVIF" alt="human image">
+                    </div>
+                </div>
+                <div class="creat-account rad-10 ba-co p-20 d-flex p-relative">
+                    <h2 class="indication">Free subscription</h2>
+                    <div class="profile-setting mb-20 p-20 mt-15">
+                        <div class="userpic mr-30">
+                            <h3 class="h-color">Profile userpic</h3>
+                            <img src="./images/avatar.AVIF" alt="profile picture" width="125px">
+                        </div>
+                        <div class="upload">
+                            <span class="h-color">Upload your avatarka...</span>
+                            <p class="span-p-color">Photo should be at least 300px &times; 300px</p>
+                            <div class="chooe d-block mt-40">
+                                <a href="#" class="p-10">Upload a photo</a>
+                                <a href="#" class="p-10">Take a photo</a>
+                            </div>
+                        </div>
+                    </div>  
+                        <h4 class="h-color ml-15">Additional information</h4>  
+                        <div class="inputs p-20 w-full">
+                            <div class="inputBox">
+                                <input type="text" required="required">
+                                <span>First Name</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" required="required">
+                                <span>Last Name</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="email" required="required">
+                                <span>Email</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="password" required="required">
+                                <span>Password</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="number" required="required">
+                                <span>Number </span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" required="required" name="Creat Account" value="Creat Account">
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
