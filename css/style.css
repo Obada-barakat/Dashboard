@@ -23,6 +23,7 @@ html {
 
 body {
     font-family: "open sans", "sans-serif";
+    font-display: swap;
     background-color: rgb(13,27,42);
     background-image: linear-gradient(204deg, rgba(13,27,42,1) 11%, rgba(27,38,59,1) 53%, rgba(65,90,119,1) 100%);
 }
@@ -515,6 +516,7 @@ ul {
 
     .data .months div span:nth-child(2) {
         background-color: var(--color-03);
+        color: var(--alt-color);
     }
 
     .data .months div span:nth-child(4) {
@@ -600,6 +602,7 @@ ul {
         grid-template-columns: 1fr 3fr;
         gap: 0 20px;
         padding: 8px 15px;
+        margin-bottom: 20px;
     }
 
     @media (max-width: 767px) {
@@ -680,6 +683,7 @@ ul {
 /* start settings-page */
 .settings-page {
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    padding: 20px;
 }
 
 @media (max-width: 767px) {
@@ -688,6 +692,7 @@ ul {
         gap: 10px;
         margin-left: 10px;
         margin-right: 10px;
+        padding: 5px;
     }
 }
 
@@ -1090,7 +1095,7 @@ ul {
     border-color: var(--alt-color);
 }
 
-.creat-account .inputs {
+.creat-account .inputs label {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1099,12 +1104,12 @@ ul {
     transition: 0.3s;
 }
 
-.creat-account .inputs .inputBox {
+.creat-account .inputs label .inputBox {
     position: relative;
     width: 40%;
 }
 
-.creat-account .inputs .inputBox input {
+.creat-account .inputs label .inputBox input {
     width: 100%;
     padding: 10px;
     border: 1px solid var(--color-04);
@@ -1115,7 +1120,7 @@ ul {
     font-size: 1em;
 }
 
-.creat-account .inputs .inputBox span {
+.creat-account .inputs label .inputBox span {
     position: absolute;
     left: 0;
     padding: 10px;
@@ -1126,8 +1131,8 @@ ul {
     transition: 0.3s;
 }
 
-.creat-account .inputs .inputBox input:valid ~ span, 
-.creat-account .inputs .inputBox input:focus ~ span {
+.creat-account .inputs label .inputBox input:valid ~ span, 
+.creat-account .inputs label .inputBox input:focus ~ span {
     color: var(--alt-color);
     transform: translateX(10px) translateY(-7px);
     font-size: 0.75em;
@@ -1139,19 +1144,19 @@ ul {
     border-radius: 2px; 
 }
 
-.creat-account .inputs .inputBox input:valid, 
-.creat-account .inputs .inputBox input:focus {
+.creat-account .inputs label .inputBox input:valid, 
+.creat-account .inputs label .inputBox input:focus {
     border-color: var(--alt-color);
 }
 
-.creat-account .inputs .inputBox input[type="submit"] {
+.creat-account .inputs label .inputBox input[type="submit"] {
     width: 150px;
     cursor: pointer;
     border-radius: 12px;
     transition: 0.3s;
 }
 
-.creat-account .inputs .inputBox input[type="submit"]:hover {
+.creat-account .inputs label .inputBox input[type="submit"]:hover {
     background-color: var(--color-01);
 }
 
@@ -1177,10 +1182,10 @@ ul {
         width: 100%;
     }
 
-    .creat-account .inputs {
+    .creat-account label {
         flex-direction: column;
     }
-    .creat-account .inputs .inputBox {
+    .creat-account .inputs label .inputBox {
         width: 100%;
     }
 }
@@ -1307,7 +1312,7 @@ ul {
         align-items: center;
     }
 
-    .projects-page .task-planing .monthly-task .names h3 {
+    .projects-page .task-planing .monthly-task .names h2 {
         font-size: 23px;
         margin-bottom: 0;
         color: var(--alt-color);
@@ -1870,6 +1875,7 @@ ul {
 
 .courses .new-course .course .cover {
     max-width: 100%;
+    width: 100%;
 }
 
 .courses .new-course .course h4 {
@@ -1955,7 +1961,7 @@ ul {
     background-color: var(--alt-color);
 }
 
-.team-page .member div:nth-child(2) h4 {
+.team-page .member div:nth-child(2) h2 {
     color: var(--alt-color);
     font-size: 18px;
     letter-spacing: 1px;
@@ -2042,7 +2048,7 @@ ul {
         box-shadow: none;
     }
 
-    .palns-page .plan h4 {
+    .palns-page .plan h2 {
         margin: 0;
         font-size: 28px;
         color: var(--color-05);
@@ -2073,7 +2079,7 @@ ul {
     }
 
     .palns-page .features p { 
-        color: var(--color-03);
+        color: var(--color-04);
     }
 
     .palns-page .select { 

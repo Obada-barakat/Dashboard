@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a dashboard from kmaho company">
     <title>News</title>
-    <link rel="shortcut icon" type="image" href="images/logo-1.AVIF">
+    <link rel="website icon" type="AVIF" href="images/logo-1.AVIF">
     <link rel="stylesheet" href="css/freamwork.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
@@ -17,116 +17,119 @@
 <body>
     <div class="conatiner d-flex" id="dashboard">
         <div class="sidebar p-20 m-20 p-relative ba-co rad-15">
-            <a href="home.html">
+            <a href="home.html" aria-label="back to home page">
                 <h3 class="p-relative txt-c mt-0">Home</h3>
             </a>
-            <ul>
-                <span>
-                    <a href="home.html">
-                        <i class="fa-solid fa-house"></i>
-                    </a>
-                </span>
+            <ul> 
                 <li>
-                    <a class="d-flex align-center fs-14 rad-6 p-10" href="index.html">
+                    <span>
+                        <a href="home.html" aria-label="back to home page">
+                            <i class="fa-solid fa-house"></i>
+                        </a>
+                    </span>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="index.html" aria-label="Go to dashboard page">
                         <i class="fa-solid fa-chart-simple fa-fw color-i"></i>
                         <span class="hide-mobile">Dashboard</span>
                     </a>
                 </li>
                 <li>
-                    <a class="d-flex align-center fs-14 rad-6 p-10" href="profile.html">
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="profile.html" aria-label="Go to profile page">
                         <i class="fa-regular fa-user fa-fw color-i"></i>
                         <span class="hide-mobile">Profile</span>
                     </a>
                 </li>
                 <li>
-                    <a class="d-flex align-center fs-14 rad-6 p-10" href="projects.html">
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="projects.html" aria-label="Go to projects page">
                         <i class="fa-solid fa-network-wired fa-fw color-i"></i>
                         <span class="hide-mobile">Projects</span>
                     </a>
                 </li>
                 <li>
-                    <a class="active d-flex align-center fs-14 rad-6 p-10" href="news.html">
+                    <a class="active d-flex align-center fs-14 rad-6 p-10" href="news.html" aria-label="Go to news page">
                         <i class="fa-brands fa-neos fa-fw color-i"></i>
                         <span class="hide-mobile">News</span>
                     </a>
                 </li>
                 <li>
-                    <a class="d-flex align-center fs-14 rad-6 p-10" href="team.html">
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="team.html" aria-label="Go to team page">
                         <i class="fa-regular fa-user fa-fw color-i"></i>
                         <span class="hide-mobile">Team</span>
                     </a>
                 </li>
                 <li>
-                    <a class="d-flex align-center fs-14 rad-6 p-10" href="settings.html">
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="settings.html" aria-label="Go to settings page">
                         <i class="fa-solid fa-gear fa-fw color-i"></i>
                         <span class="hide-mobile">Settings</span>
                     </a>
                 </li>
                 <li>
-                    <a class="d-flex align-center fs-14 rad-6 p-10 " href="plans.html">
+                    <a class="d-flex align-center fs-14 rad-6 p-10 " href="plans.html" aria-label="Go to plans page">
                         <i class="fa-regular fa-credit-card fa-fw color-i"></i>
                         <span class="hide-mobile">plans</span>
                     </a>
                 </li>
             </ul>
             <div class="to-up">
-               <a href="#dashboard"><i class="fa-solid fa-angles-up"></i></a>
+               <a href="#dashboard" aria-label="Go from down to up"><i class="fa-solid fa-angles-up"></i></a>
             </div>
         </div>
         <div class="content w-full m-20 rad-15 ba-co">
 <!-- start head -->
-            <div class="head p-20 between-flex">
-                <div class="search p-relative">
-                    <input class="p-10" type="search" placeholder="Type A Keyword">
-                </div>
-                <div class="icons d-flex align-center">
-                    <span class="notification p-relative">
-                        <a href="news.html"><i class="fa-regular fa-bell fa-lg color-i"></i></a>
-                    </span>
-                    <a href="profile.html"><img src="./images/avatar.AVIF" alt="profile picture" title="profile page"></a>
-                </div>
-            </div>
+<div class="head p-20 between-flex">
+    <div class="search p-relative">
+        <input class="p-10" type="search" placeholder="Type A Keyword">
+    </div>
+    <div class="icons d-flex align-center">
+        <span class="notification p-relative">
+            <a href="news.html" aria-label="Go to the news page"><i class="fa-regular fa-bell fa-lg color-i"></i></a>
+        </span>
+        <a href="profile.html" aria-label=" Go to the profile page"><img src="./images/avatar.AVIF" alt="profile picture" title="profile page"></a>
+    </div>
+</div>
 <!-- end head -->
             <h1>News</h1>
             <div class="news-page w-full">
                 <div class="major-news d-grid w-full rad-6 p-20">
                     <div class="card ba-co">
                         <div class="img">
-                            <img src="./images/bestweb.AVIF" alt="">
+                            <img src="./images/bestweb.AVIF" alt="image for building">
                         </div>
                         <div class="heading">
-                            <a href="https://www.webdesignerdepot.com/2023/03/20-best-new-websites-march-2023/" target="_blank">
-                                <h3>20 Best New Websites, March 2023</h3>
+                            <a href="https://www.webdesignerdepot.com/2023/03/20-best-new-websites-march-2023/" target="_blank" aria-label="20 best new website in 2023">
+                                <h2>20 Best New Websites, March 2023</h2>
                             </a>
                         </div>
                     </div>
                     <div class="card ba-co">
                         <div class="img">
-                            <img src="./images/budget_planner.AVIF" alt="">
+                            <img src="./images/budget_planner.AVIF" alt="budget planner">
                         </div>
                         <div class="heading">
-                            <a href="https://www.webdesignerdepot.com/2023/03/free-download-budget-planner-ui-kit/" target="_blank">
-                                <h3>Free Download: Budget Planner UI Kit</h3>
+                            <a href="https://www.webdesignerdepot.com/2023/03/free-download-budget-planner-ui-kit/" target="_blank" aria-label="Free Download: Budget Planner UI Kit">
+                                <h2>Free Download: Budget Planner UI Kit</h2>
                             </a>
                         </div>
                     </div>
                     <div class="card ba-co">
                         <div class="img">
-                            <img src="./images/featured_fonts.AVIF" alt="">
+                            <img src="./images/featured_fonts.AVIF" alt="best 20 fonts in 2023">
                         </div>
                         <div class="heading">
-                            <a href="https://www.webdesignerdepot.com/2022/12/40-best-new-fonts-of-2022/" target="_blank">
-                                <h3>40 Best New Fonts of 2023</h3>
+                            <a href="https://www.webdesignerdepot.com/2022/12/40-best-new-fonts-of-2022/" target="_blank" aria-label="40 Best New Fonts of 2022">
+                                <h2>40 Best New Fonts of 2023</h2>
                             </a>
                         </div>
                     </div>
                     <div class="card ba-co">
                         <div class="img">
-                            <img src="./images/sizzy.AVIF" alt="">
+                            <img src="./images/sizzy.AVIF" alt="New Tools for Designers">
                         </div>
                         <div class="heading">
-                            <a href="https://www.webdesignerdepot.com/2023/03/exciting-new-tools-for-designers-march-2023/" target="_blank">
-                                <h3>Exciting New Tools for Designers, March 2023</h3>
+                            <a href="https://www.webdesignerdepot.com/2023/03/exciting-new-tools-for-designers-march-2023/" target="_blank" aria-label="Exciting New Tools for Designers, March 2023
+                            ">
+                                <h2>Exciting New Tools for Designers, March 2023</h2>
                             </a>
                         </div>
                     </div>
@@ -135,27 +138,27 @@
                     <span>Popular Posts</span>
                     <div class="summary">
                         <div class="img">
-                            <img src="./images/featured.AVIF" alt="">
+                            <img src="./images/featured.AVIF" alt="Responsive Web Design">
                         </div>
-                        <a href="https://www.webdesignerdepot.com/2023/01/the-pros-and-cons-of-responsive-web-design-in-2023/" target="_blank">The P/C of Responsive Web Design in 2023</a>
+                        <a href="https://www.webdesignerdepot.com/2023/01/the-pros-and-cons-of-responsive-web-design-in-2023/" target="_blank" aria-label="The Pros and Cons of Responsive Web Design in 2023">The P/C of Responsive Web Design in 2023</a>
                     </div>
                     <div class="summary">
                         <div class="img">
-                            <img src="./images/featured-2.AVIF" alt="">
+                            <img src="./images/featured-2.AVIF" alt="Impact on the Web">
                         </div>
-                        <a href="https://www.webdesignerdepot.com/2023/02/ais-impact-on-the-web-is-growing/" target="_blank">AI's Impact on the Web Is Growing</a>
+                        <a href="https://www.webdesignerdepot.com/2023/02/ais-impact-on-the-web-is-growing/" target="_blank" aria-label="AI's Impact on the Web Is Growing">AI's Impact on the Web Is Growing</a>
                     </div>
                     <div class="summary">
                         <div class="img">
-                            <img src="./images/featured_sites.AVIF" alt="">
+                            <img src="./images/featured_sites.AVIF" alt="Best New Websites">
                         </div>
-                        <a href="https://www.webdesignerdepot.com/2023/01/20-best-new-websites-january-2023/" target="_blank">20 Best New Websites, January 2023</a>
+                        <a href="https://www.webdesignerdepot.com/2023/01/20-best-new-websites-january-2023/" target="_blank" aria-label="20 Best New Websites, January 2023">20 Best New Websites, January 2023</a>
                     </div>
                     <div class="summary">
                         <div class="img">
-                            <img src="./images/mbau.AVIF" alt="">
+                            <img src="./images/mbau.AVIF" alt="the most exclusive private island">
                         </div>
-                        <a href="https://www.webdesignerdepot.com/2023/02/3-essential-design-trends-february-2023/" target="_blank">3 Essential Design Trends, February 2023</a>
+                        <a href="https://www.webdesignerdepot.com/2023/02/3-essential-design-trends-february-2023/" target="_blank" aria-label="3 Essential Design Trends, February 2023">3 Essential Design Trends, February 2023</a>
                     </div>
                 </div>
                 <div class="magazine ">
@@ -188,7 +191,7 @@
                     <h4 class="ba-co p-10 txt-c fs-30">New amazing courses</h4>
                     <div class="new-course p-20 d-grid m-20">
                         <div class="course p-relative ba-co">
-                            <img class="cover" src="./images/course-01.AVIF" alt="">
+                            <img class="cover" src="./images/course-01.AVIF" alt="image for course">
                             <div class="p-20">
                                 <h4 class="m-0">Mastering web design</h4>
                                 <p class="description mt-15 fs-14">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
@@ -200,7 +203,7 @@
                             </div>
                         </div>
                         <div class="course p-relative ba-co">
-                            <img class="cover" src="./images/course-02.AVIF" alt="">
+                            <img class="cover" src="./images/course-02.AVIF" alt="image for course">
                             <div class="p-20">
                                 <h4 class="m-0">Data Structure And Algorithms</h4>
                                 <p class="description mt-15 fs-14">Master The Art Of Data Strcuture And Famous Algorithms Like Sorting, Dividing And Conquering</p>
@@ -212,7 +215,7 @@
                             </div>
                         </div>
                         <div class="course p-relative ba-co">
-                            <img class="cover" src="./images/course-03.AVIF" alt="">
+                            <img class="cover" src="./images/course-03.AVIF" alt="image for course">
                             <div class="p-20">
                                 <h4 class="m-0">Responsive Web Design</h4>
                                 <p class="description mt-15 fs-14">Mastering Responsive Web Design And Media Queries And Know Everything About Breakpoints</p>
@@ -224,7 +227,7 @@
                             </div>
                         </div>
                         <div class="course p-relative ba-co">
-                            <img class="cover" src="./images/course-04.AVIF" alt="">
+                            <img class="cover" src="./images/course-04.AVIF" alt="image for course">
                             <div class="p-20">
                                 <h4 class="m-0">Mastering Python</h4>
                                 <p class="description mt-15 fs-14">Mastering Python To Prepare For Data Science And AI And Automating Things in Your Life</p>
@@ -236,7 +239,7 @@
                             </div>
                         </div>
                         <div class="course p-relative ba-co">
-                            <img class="cover" src="./images/course-05.AVIF" alt="">
+                            <img class="cover" src="./images/course-05.AVIF" alt="image for course">
                             <div class="p-20">
                                 <h4 class="m-0">UI/UX design</h4>
                                 <p class="description mt-15 fs-14">Launch into Product Design with in-demand UX/UI skills and knowledge.</p>
@@ -248,7 +251,7 @@
                             </div>
                         </div>
                         <div class="course p-relative ba-co">
-                            <img class="cover" src="./images/course-06.AVIF" alt="">
+                            <img class="cover" src="./images/course-06.AVIF" alt="image for course">
                             <div class="p-20">
                                 <h4 class="m-0">Photoshop design</h4>
                                 <p class="description mt-15 fs-14">As an artist, you know the importance of having crisp and vibrant photos for your designs.</p>

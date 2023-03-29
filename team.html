@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a dashboard from kmaho company">
     <title>Team</title>
-    <link rel="shortcut icon" type="image" href="images/logo-1.AVIF">
+    <link rel="website icon" type="AVIF" href="images/logo-1.AVIF">
     <link rel="stylesheet" href="css/freamwork.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -17,75 +17,77 @@
 <body>
     <div class="conatiner d-flex" id="dashboard">
         <div class="sidebar p-20 m-20 p-relative ba-co rad-15">
-            <a href="home.html">
+            <a href="home.html" aria-label="back to home page">
                 <h3 class="p-relative txt-c mt-0">Home</h3>
             </a>
-            <ul>
-                <span>
-                    <a href="home.html">
-                        <i class="fa-solid fa-house"></i>
-                    </a>
-                </span>
+            <ul> 
                 <li>
-                    <a class="d-flex align-center fs-14 rad-6 p-10" href="index.html">
+                    <span>
+                        <a href="home.html" aria-label="back to home page">
+                            <i class="fa-solid fa-house"></i>
+                        </a>
+                    </span>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="index.html" aria-label="Go to dashboard page">
                         <i class="fa-solid fa-chart-simple fa-fw color-i"></i>
                         <span class="hide-mobile">Dashboard</span>
                     </a>
                 </li>
                 <li>
-                    <a class="d-flex align-center fs-14 rad-6 p-10" href="profile.html">
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="profile.html" aria-label="Go to profile page">
                         <i class="fa-regular fa-user fa-fw color-i"></i>
                         <span class="hide-mobile">Profile</span>
                     </a>
                 </li>
                 <li>
-                    <a class="d-flex align-center fs-14 rad-6 p-10" href="projects.html">
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="projects.html" aria-label="Go to projects page">
                         <i class="fa-solid fa-network-wired fa-fw color-i"></i>
                         <span class="hide-mobile">Projects</span>
                     </a>
                 </li>
                 <li>
-                    <a class="d-flex align-center fs-14 rad-6 p-10" href="news.html">
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="news.html" aria-label="Go to news page">
                         <i class="fa-brands fa-neos fa-fw color-i"></i>
                         <span class="hide-mobile">News</span>
                     </a>
                 </li>
                 <li>
-                    <a class="active  d-flex align-center fs-14 rad-6 p-10" href="team.html">
+                    <a class="active d-flex align-center fs-14 rad-6 p-10" href="team.html" aria-label="Go to team page">
                         <i class="fa-regular fa-user fa-fw color-i"></i>
                         <span class="hide-mobile">Team</span>
                     </a>
                 </li>
                 <li>
-                    <a class="d-flex align-center fs-14 rad-6 p-10" href="settings.html">
+                    <a class="d-flex align-center fs-14 rad-6 p-10" href="settings.html" aria-label="Go to settings page">
                         <i class="fa-solid fa-gear fa-fw color-i"></i>
                         <span class="hide-mobile">Settings</span>
                     </a>
                 </li>
                 <li>
-                    <a class="d-flex align-center fs-14 rad-6 p-10 " href="plans.html">
+                    <a class="d-flex align-center fs-14 rad-6 p-10 " href="plans.html" aria-label="Go to plans page">
                         <i class="fa-regular fa-credit-card fa-fw color-i"></i>
                         <span class="hide-mobile">plans</span>
                     </a>
                 </li>
             </ul>
             <div class="to-up">
-               <a href="#dashboard"><i class="fa-solid fa-angles-up"></i></a>
+               <a href="#dashboard" aria-label="Go from down to up"><i class="fa-solid fa-angles-up"></i></a>
             </div>
         </div>
         <div class="content w-full m-20 rad-15 ba-co">
 <!-- start head -->
-            <div class="head p-20 between-flex">
-                <div class="search p-relative">
-                    <input class="p-10" type="search" placeholder="Type A Keyword">
-                </div>
-                <div class="icons d-flex align-center">
-                    <span class="notification p-relative">
-                        <a href="news.html"><i class="fa-regular fa-bell fa-lg color-i"></i></a>
-                    </span>
-                    <a href="profile.html"><img src="./images/avatar.AVIF" alt="profile picture" title="profile page"></a>
-                </div>
-            </div>
+<div class="head p-20 between-flex">
+    <div class="search p-relative">
+        <input class="p-10" type="search" placeholder="Type A Keyword">
+    </div>
+    <div class="icons d-flex align-center">
+        <span class="notification p-relative">
+            <a href="news.html" aria-label="Go to the news page"><i class="fa-regular fa-bell fa-lg color-i"></i></a>
+        </span>
+        <a href="profile.html" aria-label=" Go to the profile page"><img src="./images/avatar.AVIF" alt="profile picture" title="profile page"></a>
+    </div>
+</div>
 <!-- end head -->
             <h1>Team</h1>
             <div class="team-page d-grid m-20">
@@ -96,7 +98,7 @@
                     </div>
                     <div class="txt-c">
                         <img class="rad-half mt-10 mb-10 w-100 h-100" src="./images/avatar-01.AVIF" alt="profile photo">
-                        <h4 class="m-0">Jenny nelson</h4>
+                        <h2 class="m-0">Jenny nelson</h2>
                         <p class="mt-5 mb-0 fs-13">JavaScript developer</p>
                     </div>
                     <div class="icons fs-14">
@@ -116,7 +118,7 @@
                     <div class="info between-flex fs-13">
                         <span>Joined 10/3/2020</span>
                         <div>
-                            <a href="">Profile</a>
+                            <a href="#">Profile</a>
                             <i class="fa-solid fa-star"></i>
                         </div>                        
                     </div>
@@ -128,7 +130,7 @@
                     </div>
                     <div class="txt-c">
                         <img class="rad-half mt-10 mb-10 w-100 h-100" src="./images/avatar-02.AVIF" alt="profile photo">
-                        <h4 class="m-0">Jack lawson</h4>
+                        <h2 class="m-0">Jack lawson</h2>
                         <p class="mt-5 mb-0 fs-13">Back-End Developer</p>
                     </div>
                     <div class="icons fs-14">
@@ -148,7 +150,7 @@
                     <div class="info between-flex fs-13">
                         <span>Joined 7/7/2019</span>
                         <div>
-                            <a href="">Profile</a>
+                            <a href="#">Profile</a>
                             <i class="fa-solid fa-star"></i>
                         </div>                        
                     </div>
@@ -160,7 +162,7 @@
                     </div>
                     <div class="txt-c">
                         <img class="rad-half mt-10 mb-10 w-100 h-100" src="./images/avatar-03.AVIF" alt="profile photo">
-                        <h4 class="m-0">Linnie ingram</h4>
+                        <h2 class="m-0">Linnie ingram</h2>
                         <p class="mt-5 mb-0 fs-13">Back-end Developer</p>
                     </div>
                     <div class="icons fs-14">
@@ -180,7 +182,7 @@
                     <div class="info between-flex fs-13">
                         <span>Joined 10/11/2021</span>
                         <div>
-                            <a href="">Profile</a>
+                            <a href="#">Profile</a>
                         </div>                        
                     </div>
                 </div>
@@ -191,7 +193,7 @@
                     </div>
                     <div class="txt-c">
                         <img class="rad-half mt-10 mb-10 w-100 h-100" src="./images/avatar-04.AVIF" alt="profile photo">
-                        <h4 class="m-0">Elie welson</h4>
+                        <h2 class="m-0">Elie welson</h2>
                         <p class="mt-5 mb-0 fs-13">Mobile Developer</p>
                     </div>
                     <div class="icons fs-14">
@@ -211,7 +213,7 @@
                     <div class="info between-flex fs-13">
                         <span>Joined 10/2/2018</span>
                         <div>
-                            <a href="">Profile</a>
+                            <a href="#">Profile</a>
                             <i class="fa-solid fa-star"></i>
                         </div>                        
                     </div>
@@ -223,7 +225,7 @@
                     </div>
                     <div class="txt-c">
                         <img class="rad-half mt-10 mb-10 w-100 h-100" src="./images/avatar-05.AVIF" alt="profile photo">
-                        <h4 class="m-0">Dani amberhank</h4>
+                        <h2 class="m-0">Dani amberhank</h2>
                         <p class="mt-5 mb-0 fs-13">Cloud Developer</p>
                     </div>
                     <div class="icons fs-14">
@@ -243,7 +245,7 @@
                     <div class="info between-flex fs-13">
                         <span>Joined 10/6/2022</span>
                         <div>
-                            <a href="">Profile</a>
+                            <a href="#">Profile</a>
                         </div>                        
                     </div>
                 </div>
@@ -254,7 +256,7 @@
                     </div>
                     <div class="txt-c">
                         <img class="rad-half mt-10 mb-10 w-100 h-100" src="./images/avatar-06.AVIF" alt="profile photo">
-                        <h4 class="m-0">Helena hicks</h4>
+                        <h2 class="m-0">Helena hicks</h2>
                         <p class="mt-5 mb-0 fs-13">UI/UX Designer</p>
                     </div>
                     <div class="icons fs-14">
@@ -274,7 +276,7 @@
                     <div class="info between-flex fs-13">
                         <span>Joined 4/3/2018</span>
                         <div>
-                            <a href="">Profile</a>
+                            <a href="#">Profile</a>
                             <i class="fa-solid fa-star"></i>
                         </div>                        
                     </div>
@@ -286,7 +288,7 @@
                     </div>
                     <div class="txt-c">
                         <img class="rad-half mt-10 mb-10 w-100 h-100" src="./images/avatar-07.AVIF" alt="profile photo">
-                        <h4 class="m-0">David gram</h4>
+                        <h2 class="m-0">David gram</h2>
                         <p class="mt-5 mb-0 fs-13">Front-End Developer</p>
                     </div>
                     <div class="icons fs-14">
@@ -306,7 +308,7 @@
                     <div class="info between-flex fs-13">
                         <span>Joined 4/9/2018</span>
                         <div>
-                            <a href="">Profile</a>
+                            <a href="#">Profile</a>
                             <i class="fa-solid fa-star"></i>
                         </div>                        
                     </div>
@@ -318,7 +320,7 @@
                     </div>
                     <div class="txt-c">
                         <img class="rad-half mt-10 mb-10 w-100 h-100" src="./images/avatar-08.AVIF" alt="profile photo">
-                        <h4 class="m-0">Caroline berln</h4>
+                        <h2 class="m-0">Caroline berln</h2>
                         <p class="mt-5 mb-0 fs-13">Front-End Developer</p>
                     </div>
                     <div class="icons fs-14">
@@ -338,7 +340,7 @@
                     <div class="info between-flex fs-13">
                         <span>Joined 6/2/2022</span>
                         <div>
-                            <a href="">Profile</a>
+                            <a href="#">Profile</a>
                         </div>                        
                     </div>
                 </div>
